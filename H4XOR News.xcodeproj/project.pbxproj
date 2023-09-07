@@ -11,6 +11,9 @@
 		FC8A3A732AA9E047006CDE93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8A3A722AA9E047006CDE93 /* ContentView.swift */; };
 		FC8A3A752AA9E04B006CDE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8A3A742AA9E04B006CDE93 /* Assets.xcassets */; };
 		FC8A3A782AA9E04B006CDE93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8A3A772AA9E04B006CDE93 /* Preview Assets.xcassets */; };
+		FC8A3A802AA9E679006CDE93 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8A3A7F2AA9E679006CDE93 /* NetworkManager.swift */; };
+		FC8A3A822AA9E906006CDE93 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8A3A812AA9E906006CDE93 /* PostData.swift */; };
+		FC8A3A852AA9F4A9006CDE93 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8A3A842AA9F4A9006CDE93 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		FC8A3A722AA9E047006CDE93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC8A3A742AA9E04B006CDE93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8A3A772AA9E04B006CDE93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC8A3A7F2AA9E679006CDE93 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FC8A3A812AA9E906006CDE93 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		FC8A3A842AA9F4A9006CDE93 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,9 @@
 		FC8A3A6F2AA9E047006CDE93 /* H4XOR News */ = {
 			isa = PBXGroup;
 			children = (
+				FC8A3A7E2AA9E634006CDE93 /* Model */,
 				FC8A3A702AA9E047006CDE93 /* H4XOR_NewsApp.swift */,
-				FC8A3A722AA9E047006CDE93 /* ContentView.swift */,
+				FC8A3A832AA9F467006CDE93 /* Views */,
 				FC8A3A742AA9E04B006CDE93 /* Assets.xcassets */,
 				FC8A3A762AA9E04B006CDE93 /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				FC8A3A772AA9E04B006CDE93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC8A3A7E2AA9E634006CDE93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC8A3A7F2AA9E679006CDE93 /* NetworkManager.swift */,
+				FC8A3A812AA9E906006CDE93 /* PostData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC8A3A832AA9F467006CDE93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC8A3A722AA9E047006CDE93 /* ContentView.swift */,
+				FC8A3A842AA9F4A9006CDE93 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8A3A802AA9E679006CDE93 /* NetworkManager.swift in Sources */,
+				FC8A3A822AA9E906006CDE93 /* PostData.swift in Sources */,
 				FC8A3A732AA9E047006CDE93 /* ContentView.swift in Sources */,
+				FC8A3A852AA9F4A9006CDE93 /* DetailView.swift in Sources */,
 				FC8A3A712AA9E047006CDE93 /* H4XOR_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
